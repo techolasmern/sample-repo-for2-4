@@ -1,0 +1,12 @@
+git init -> init
+
+config
+git config --global user.email "techolas.vishnumk@gmail.com"
+git config --global user.name "VISHNU M K"
+
+remove --global for specific folder config.
+
+git remote add <remote_name> <link> -> git remote add origin https://github.com/techolasmern/sample-repo-for2-4.git
+select files -> git add . or for adding specific files -> git add <fileName1> <fileName2> ....
+changes information -> git commit -m "initial commit";
+push -> git push origin master
